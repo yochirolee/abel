@@ -135,6 +135,34 @@ header label span {
   padding-top: 2px;
 }
 
+/*----------------USERACTIONS ----------------------------------*/
+.user-actions {
+  position: absolute;
+  display: none;
+  top: 4.5rem;
+  right: 1;
+  width: 150px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-actions span {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.user-actions span:hover {
+  color: var(--main-color);
+}
+/*----------------END USERACTIONS ----------------------------------*/
+
 main {
   margin-top: 2px;
   padding: 2rem 1.5rem;

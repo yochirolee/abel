@@ -134,6 +134,7 @@ header label span {
 .user-data {
   text-align: center;
   padding-top: 2px;
+  cursor: pointer;
 }
 
 main {
@@ -171,15 +172,19 @@ main {
 /*----------------USERACTIONS ----------------------------------*/
 .user-actions {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: none;
   top: 4.5rem;
   right: 1;
   width: 150px;
   background: white;
   border: 1px solid rgba(0, 0, 0, 0.11);
   border-radius: 10px;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .user-actions span {
