@@ -104,10 +104,43 @@
       <div class="table-container">
         <div class="finances">
           <div class="card">
+            <!--TABLE FORM-->
             <div class="card-header">
               <h3>Confidenciales</h3>
-              <button>Mostrar <span class="las la-arrow-right"></span></button>
+              <form class="table-form">
+                <div class="form-control">
+                  <label for="distritos">Distritos</label>
+                  <select name="distritos" id="distritos">
+                    <option value="1">Distrito 1</option>
+                    <option value="2">Distrito 2</option>
+                    <option value="3">Distrito 3</option>
+                    <option value="4">Distrito 4</option>
+                  </select>
+                </div>
+                <div class="form-control">
+                  <label for="distritos">Year</label>
+                  <select name="distritos" id="distritos">
+                    <option value="1">Todos</option>
+                    <option value="2">2020</option>
+                    <option value="3">2019</option>
+                    <option value="4">2018</option>
+                  </select>
+                </div>
+                <div class="form-control">
+                  <label for="distritos">Ingreso Minimo</label>
+                  <input type="number" value="1" />
+                </div>
+                <div class="form-control">
+                  <label for="distritos">Ingreso Maximo</label>
+                  <input type="number" value="9000" />
+                </div>
+                <button>
+                  Mostrar <span class="las la-arrow-right"></span>
+                </button>
+              </form>
             </div>
+            <!--END TABLE FORM-->
+
             <div class="card-body">
               <div class="table-responsive">
                 <table width="100%">
