@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <input
+      type="checkbox"
+      style="position: fixed; display: none"
+      id="nav-toggle"
+    />
+    <div class="sidebar">
+      <div class="sidebar-brand">
+        <h2>
+          <i class="las la-church"></i>
+          <span class="site-name">Project Name</span>
+        </h2>
+      </div>
+
+      <div class="sidebar-menu">
+        <ul>
+          <li class="inactive">
+            <a><i class="las la-tools"></i> <span>Presidencia</span></a>
+          </li>
+          <li>
+            <a class="active" href="./index.html"
+              ><i class="las la-users-cog"></i> <span>Administracion</span></a
+            >
+          </li>
+          <li>
+            <a href="./finanzas.html"
+              ><i class="las la-coins"></i> <span>Finazas</span></a
+            >
+          </li>
+          <li class="inactive">
+            <a><i class="las la-users"></i> <span>Membresias</span></a>
+          </li>
+          <li class="inactive">
+            <a><i class="las la-search-dollar"></i> <span> Auditorias</span></a>
+          </li>
+          <li class="inactive">
+            <a
+              ><i class="las la-praying-hands"></i> <span>Congregacion</span></a
+            >
+          </li>
+          <li class="inactive">
+            <a><i class="las la-igloo"></i> <span>SSO</span></a>
+          </li>
+          <li>
+            <a><i class="las la-compass"></i> <span>Indicadores</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <header>
+        <h2>
+          <label for="nav-toggle">
+            <span class="las la-bars"></span>
+          </label>
+        </h2>
+
+        <div class="user-wrapper">
+          <img src="./img/avatar.png" alt="avatar" height="40px" />
+          <div class="user-data">
+            <h4>Administrador</h4>
+            <small>Super Admin</small>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="cards-container">
+          <div class="cards">
+            <div class="card-single">
+              <h1>4</h1>
+              <span>Metas</span>
+            </div>
+            <div class="card-single">
+              <h1>4</h1>
+              <span>Pastores</span>
+            </div>
+            <div class="card-single">
+              <h1>4</h1>
+              <span>Congregaciones</span>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
