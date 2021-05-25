@@ -178,7 +178,11 @@ main {
   background: #f1f5f9;
   min-height: calc(100vh-90px);
 }
-
+.main-finanzas {
+  margin-top: 2px;
+  padding: 2rem 1.5rem;
+  min-height: calc(100vh-90px);
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -335,6 +339,25 @@ tr td:last-child {
   overflow-x: auto;
 }
 
+/*----------------------TABLE PAGINATION---------------------------*/
+
+.pagination {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.445);
+
+}
+.pagination a {
+  color: #1f8fc3;
+  margin: 6px;
+  cursor: pointer;
+}
+
+/*----------------------TABLE PAGINATION---------------------------*/
+
 /*MEDIA QUERIES */
 
 @media only screen and (max-width: 1200px) {
@@ -363,7 +386,7 @@ tr td:last-child {
     width: calc(100%-70px);
     left: 70px;
   }
-  
+
   .table-form {
     grid-template-columns: repeat(2, 1fr);
   }
