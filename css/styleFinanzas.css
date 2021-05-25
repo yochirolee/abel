@@ -112,6 +112,7 @@ header {
   top: 0;
   z-index: 100;
   transition: left 300ms;
+  position: sticky;
 }
 
 header h2 {
@@ -166,6 +167,30 @@ main {
   display: flex;
   margin-right: 15px;
 }
+
+/*----------------USERACTIONS ----------------------------------*/
+.user-actions {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: 4.5rem;
+  right: 1;
+  width: 150px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+.user-actions span {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.user-actions span:hover {
+  color: var(--main-color);
+}
+/*----------------END USERACTIONS ----------------------------------*/
 
 /*----------------TABLE  CARD CONTAINER----------------------------------*/
 .table-container {
