@@ -294,6 +294,11 @@ tr td:last-child {
   margin-right: 20px;
 }
 
+.orange {
+  background: rgba(240, 160, 11, 0.849);
+  margin-right: 20px;
+}
+
 .table-responsive {
   width: 100%;
   overflow-x: auto;
