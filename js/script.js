@@ -23,7 +23,6 @@ userWrapper.addEventListener("click", function () {
 
 document.addEventListener("click", function (event) {
   var isClickInside = event.composedPath().includes(sideBar);
-  console.log(isClickInside, sideBar.clientWidth, window.innerWidth);
   if (window.innerWidth <= 600)
     if (!isClickInside && sideBar.clientWidth != 70) {
       document.getElementById("nav-toggle").checked = false;
