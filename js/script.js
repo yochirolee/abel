@@ -21,20 +21,11 @@ userWrapper.addEventListener("click", function () {
     : document.querySelector(".user-actions").classList.remove("visible");
 });
 
-/* var el = document.getElementById("sidebar");
-var el = document.getElementById("label-nav-toggle");
-
-
 document.addEventListener("click", function (event) {
-  var isClickInside = event.composedPath().includes(el );
-  console.log(isClickInside)
-
-  if (isClickInside || event.composedPath().includes( ) ) {
-    console.log("You clicked inside");
-    document.getElementById("nav-toggle").checked = true;
-  } else {
-    console.log('outside');
-   
-        document.getElementById("nav-toggle").checked = false;
-  }
-}); */
+  var isClickInside = event.composedPath().includes(sideBar);
+  console.log(isClickInside, sideBar.clientWidth, window.innerWidth);
+  if (window.innerWidth <= 600)
+    if (!isClickInside && sideBar.clientWidth != 70) {
+      document.getElementById("nav-toggle").checked = false;
+    }
+});
